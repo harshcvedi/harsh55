@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    z-index: 10;
+    
+}
+
+.navbar_netflix{
+    width: 125px;
+    height: 100%;
+}
+
+.items_navbar{
+    display: flex;
+    gap: 10px;
+}
+
+.netflix_logo{
+    width: 100%;
+    height: 100%;
+}
+
+.language_drop_down{
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.dropdown{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0.4rem;
+}
+
+#globe{
+    color: white;
+}
+
+.sign_in_button{
+    color: white;
+    background-color: red;
+    border: red;
+    border-radius: 4px;
+    padding: 0.25rem;
+    height: 35px;
+    width: 100px;
+}
+
+.harsh_bg_image_container{
+    height: 100%;
+    width: 100%;
+}
+
+.harsh_bg_image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.harsh_bg_overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    background: rgb(0,0,0,0.4);
+}
+
+.harsh_card{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.harsh_title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.harsh_subtitle,.harsh_description{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.email{
+    height: 60px;
+    width: 450px;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border-color: white;
+
+}
+
+.get_started{
+    font-size: large;
+    width: 170px;
+    height: 60px;
+    background-color: red;
+    border:1px solid red;
+    color: white;
+}
+
+.card-1,
+.card-2,
+.card-3{
+    border-top: 12px #ffffff;
+    padding: 50px;
+}
+
+.card-1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+
+}
+
+
+.desc-1{
+    padding-left: 80px;
+}
+
+.card-1 video{
+    position: relative;
+    width: 100%;
+    height: 54%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+.card-1 img{
+    grid-column: 2/2;
+    grid-row:1/2 ;
+}
+
+.style-cards h1{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.style-cards h3{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.card-2{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.desc-2{
+    padding-left: 100%;
+}
+
+.card-3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+
+}
+
+.desc-3{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.card-3 img{
+    width: 110%;
+    grid-column:2/2 ;
+    grid-row: 1/2;
+}
+
+
+.card-3 video{
+    position: relative;
+    top: -87px;
+    left: 125px;
+    width: 65%;
+    height: 78%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+    
+}
+
+.footer,
+.footer a{
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+    padding-left: 50px;
+    
+}
+
+.footer .footer-col{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:2rem;
+    padding-left: 50px;
+    padding-bottom:100px;
+
+}
+
+
+.footer li{
+    line-height: 1.9;
+    list-style-type: none;
+}
+
+.harsh1{
+    margin-right: 10px;
+}
